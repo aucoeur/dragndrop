@@ -1,0 +1,19 @@
+body {
+  background-color: #e4e4e4;
+}
+
+.leftContainer, .rightContainer {
+  width: 40%;
+  height: 400px;
+  background-color: #ffffff;
+  border: solid;
+  border-width: 1px;
+}
+
+.leftContainer {
+  float: left;
+}
+
+.rightContainer {
+  float: right;
+}

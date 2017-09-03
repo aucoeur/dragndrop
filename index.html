@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sandbox - Drag and Drop</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="leftContainer" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div id="leftText" draggable="true" ondragstart="drag(event)">Left Text</div>
+    </div>
+    <div class="rightContainer" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div class="rightDrop"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
